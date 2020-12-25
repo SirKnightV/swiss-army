@@ -96,7 +96,7 @@ git -C $OPTHOME clone https://github.com/BitTheByte/Eagle.git
 git -C $OPTHOME clone https://github.com/an00byss/TheCl0n3r
 git -C $OPTHOME clone https://github.com/jaykali/lockphish.git
 git -C $OPTHOME clone https://github.com/jaykali/maskphish.git
-git -C $OPTHOME clone https://github.com/reb311ion/tornado.git
+git -C $OPTHOME clone https://github.com/JKKSI/Tornado.git
 git -C $OPTHOME clone https://github.com/reb311ion/rebel-framework.git
 git -C $OPTHOME clone https://github.com/pwn0sec/PwnXSS.git
 git -C $OPTHOME clone https://github.com/tokyoneon/Chimera.git
