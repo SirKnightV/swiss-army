@@ -32,6 +32,7 @@ git -C $OPTHOME clone https://github.com/faizann24/XssPy.git
 git -C $OPTHOME clone https://github.com/lobuhi/byp4xx.git
 git -C $OPTHOME clone https://github.com/JKKSI/golismero-master.git
 git -C $OPTHOME clone https://github.com/JKKSI/Tornado.git
+git -C $OPTHOME clone https://github.com/alpkeskin/mosint.git
 git -C $OPTHOME clone https://github.com/xHak9x/fbi.git
 git -C $OPTHOME clone https://github.com/nettitude/Prowl.git
 git -C $OPTHOME clone https://github.com/vaguileradiaz/tinfoleak.git
