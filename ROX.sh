@@ -23,6 +23,7 @@ git -C $OPTHOME clone https://github.com/rajkumardusad/onex.git
 git -C $OPTHOME clone https://github.com/elceef/dnstwist.git
 git -C $OPTHOME clone https://github.com/ElevenPaths/FOCA.git
 git -C $OPTHOME clone https://github.com/wKovacs64/hibp.git
+git -C $OPTHOME clone https://github.com/andreafioraldi/cve_searchsploit.git
 git -C $OPTHOME clone https://github.com/Soldie/Striker-python
 git -C $OPTHOME clone https://github.com/thehackingsage/hacktronian.git
 git -C $OPTHOME clone https://github.com/radioactivetobi/geo-recon.git
@@ -193,6 +194,7 @@ cd $OPTHOME/hackingtool && sudo chmod +x install.sh && sudo chmod +x hackingtool
 cd $OPTHOME/hackerEnv && sudo chmod +x hackerEnv && ln -s /opt/hackerEnv/hackerEnv /usr/local/bin/
 cp ~/autoenum/autoenum.sh /usr/bin/autoenum && chmod o+x /usr/bin/autoenum
 cd $OPTHOME/Lazymux && sudo chmod +x lazymux.py
+cd $OPTHOME/cve_searchsploit && sudo chmod +x setup.py && python3 setup.py install
 cd $OPTHOME/seeker && chmod 777 install.sh && sudo bash install.sh
 cd $OPTHOME/Impulse && sudo pip3 install -r requirements.txt
 cd $OPTHOME/Findsploit && sudo chmod +x install.sh && sudo bash install.sh && findsploit update
