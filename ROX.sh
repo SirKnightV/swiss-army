@@ -212,7 +212,7 @@ cd $OPTHOME wget https://raw.githubusercontent.com/ThoughtfulDev/EagleEye/master
 cd $OPTHOME/hacktronian && chmod +x install.sh && sudo bash install.sh
 cd $OPTHOME/zap-hud && chmod +x gradlew && ./gradlew runZap
 cd $OPTHOME/Eagle && python3 -m pip install -r requirements.txt
-cd $OPTHOME/vulscan && ls vulscan/*.csv && cd vulscan/utilities/updater/ && chmod +x updateFiles.sh && sudo bash updateFiles.sh
+cd $OPTHOME/vulscan && ls vulscan/*.csv && cd vulscan/utilities/updater/ && chmod +x updateFiles.sh && sudo bash updateFiles.sh && cd /opt/vulnscan && ln -s pwd/scipag_vulscan /usr/share/nmap/scripts/vulscan && cp vulscan.nse /usr/share/nmap/scripts && cd /usr/share/nmap/scripts && wget https://svn.nmap.org/nmap/scripts/vulners.nse && cd /opt
 cd $OPTHOME/TheCl0n3r && pip3 install -r requirements.txt
 cd $OPTHOME/nuubi && pip install -r requirements.txt && sudo pip3 install -r requirements.txt
 cd $OPTHOME/lockphish && sudo chmod +x lockphish.sh
