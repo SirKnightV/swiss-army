@@ -15,6 +15,7 @@ echo -e "Clonando Pack de Herramientas"
 git -C $OPTHOME clone https://github.com/BloodHoundAD/BloodHound.git
 git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
+git -C $OPTHOME clone https://github.com/scipag/vulscan.git
 git -C $OPTHOME clone https://github.com/AkshayJainG/domained.git
 git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
 git -C $OPTHOME clone https://github.com/SecHackLabs/webhackshl.git
@@ -211,6 +212,7 @@ cd $OPTHOME wget https://raw.githubusercontent.com/ThoughtfulDev/EagleEye/master
 cd $OPTHOME/hacktronian && chmod +x install.sh && sudo bash install.sh
 cd $OPTHOME/zap-hud && chmod +x gradlew && ./gradlew runZap
 cd $OPTHOME/Eagle && python3 -m pip install -r requirements.txt
+cd $OPTHOME/vulscan && ls vulscan/*.csv && cd vulscan/utilities/updater/ && chmod +x updateFiles.sh && sudo bash updateFiles.sh
 cd $OPTHOME/TheCl0n3r && pip3 install -r requirements.txt
 cd $OPTHOME/nuubi && pip install -r requirements.txt && sudo pip3 install -r requirements.txt
 cd $OPTHOME/lockphish && sudo chmod +x lockphish.sh
