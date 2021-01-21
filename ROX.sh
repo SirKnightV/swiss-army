@@ -29,6 +29,7 @@ git -C $OPTHOME clone https://github.com/Soldie/Striker-python
 git -C $OPTHOME clone https://github.com/thehackingsage/hacktronian.git
 git -C $OPTHOME clone https://github.com/radioactivetobi/geo-recon.git
 git -C $OPTHOME clone https://github.com/m4ll0k/Infoga.git
+git -C $OPTHOME clone https://github.com/six2dez/reconftw.git
 git -C $OPTHOME clone https://github.com/sundowndev/PhoneInfoga.git
 git -C $OPTHOME clone https://github.com/faizann24/XssPy.git
 git -C $OPTHOME clone https://github.com/lobuhi/byp4xx.git
@@ -217,6 +218,7 @@ cd $OPTHOME/TheCl0n3r && pip3 install -r requirements.txt
 cd $OPTHOME/nuubi && pip install -r requirements.txt && sudo pip3 install -r requirements.txt
 cd $OPTHOME/lockphish && sudo chmod +x lockphish.sh
 cd $OPTHOME/maskphish && sudo chmod +x maskphish.sh
+cd $OPTHOME/reconftw && sudo chmod +x chmod +x *.sh && sudo bash install.sh
 cd $OPTHOME/tornado && sudo chmod +x setup.sh && sudo bash setup.sh
 cd $OPTHOME/rebel-framework && sudo chmod +x setup.sh && sudo bash setup.sh
 cd $OPTHOME && chmod 755 -R PwnXSS && cd PwnXSS && chmod +x pwnxss.py && sudo pip3 install -r requirements.txt
