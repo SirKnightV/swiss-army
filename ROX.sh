@@ -204,7 +204,7 @@ cd $OPTHOME/Findsploit && sudo chmod +x install.sh && sudo bash install.sh && fi
 cd $OPTHOME/pwnedOrNot && sudo pip3 install requests && git pull && sudo chmod +x pwnedornot.py
 cd $OPTHOME/FinalRecon && sudo pip3 install -r requirements.txt && sudo chmod +x finalrecon.py
 cd $OPTHOME/recox && sudo chmod +x recox.sh && sudo mv recox.sh /usr/local/bin/recox
-cd $OPTHOME/uDork && sudo chmod +x uDork.sh && sudo mv uDork.sh /usr/local/bin/uDork && sudo chmod +x /usr/local/bin/uDork
+cd $OPTHOME/uDork && sudo chmod +x uDork.sh
 cd $OPTHOME/BlackDir && sudo pip3 install -r requirements.txt && sudo chmod +x BlackDir.py
 cd $OPTHOME/mercury && ./configure && make && sudo make install && systemctl status mercury
 cd $OPTHOME/onex && chmod +x onex/install && sh onex/install && ./onex/install
