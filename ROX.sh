@@ -51,6 +51,7 @@ git -C $OPTHOME clone https://github.com/TheG0df2ther/The-MALWARE-Repo.git
 git -C $OPTHOME clone https://github.com/deepsecurity-pe/OperacionApakuy.git
 git -C $OPTHOME clone https://github.com/TheSpeedX/TBomb.git
 git -C $OPTHOME clone https://github.com/LimerBoy/Impulse.git
+git -C $OPTHOME clone https://github.com/m3n0sd0n4ld/uDork
 git -C $OPTHOME clone https://github.com/dwisiswant0/apkleaks
 git -C $OPTHOME clone https://github.com/dwisiswant0/go-dork.git
 git -C $OPTHOME clone https://github.com/s0md3v/Photon.git
@@ -203,6 +204,7 @@ cd $OPTHOME/Findsploit && sudo chmod +x install.sh && sudo bash install.sh && fi
 cd $OPTHOME/pwnedOrNot && sudo pip3 install requests && git pull && sudo chmod +x pwnedornot.py
 cd $OPTHOME/FinalRecon && sudo pip3 install -r requirements.txt && sudo chmod +x finalrecon.py
 cd $OPTHOME/recox && sudo chmod +x recox.sh && sudo mv recox.sh /usr/local/bin/recox
+cd $OPTHOME/uDork && sudo chmod +x uDork.sh && sudo mv uDork.sh /usr/local/bin/uDork && sudo chmod +x /usr/local/bin/uDork
 cd $OPTHOME/BlackDir && sudo pip3 install -r requirements.txt && sudo chmod +x BlackDir.py
 cd $OPTHOME/mercury && ./configure && make && sudo make install && systemctl status mercury
 cd $OPTHOME/onex && chmod +x onex/install && sh onex/install && ./onex/install
