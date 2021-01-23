@@ -227,7 +227,7 @@ cd $OPTHOME && chmod 755 -R PwnXSS && cd PwnXSS && chmod +x pwnxss.py && sudo pi
 cd $OPTHOME/Chimera && sudo apt-get update && sudo apt-get install -Vy sed xxd libc-bin curl jq perl gawk grep coreutils git && sudo chown $USER:$USER -R /opt/chimera/; cd /opt/chimera/ && sudo chmod +x chimera.sh; ./chimera.sh --help
 cd $OPTHOME && sudo apt-get update && sudo apt-get -y install websploit openvas veil-evasion tor && sudo git clone https://github.com/ruped24/killchain.git && cd killchain && sudo chmod +x killchain.py
 cd $OPTHOME/tor_ip_switcher && sudo chmod +x tips_setup.py && sudo python3 tips_setup.py && sudo chmod +x tor_ip_switcher.py
-cd $OPTHOME && unzip golismero-master.zip && cd golismero-master && sudo chmod +x golismero.py
+cd $OPTHOME && unzip golismero-master.zip && cd golismero-master && unzip golismero-master.zip && cd golismero-master && sudo chmod +x golismero.py
 #cd $OPTHOME/nipe && chmod +x setup.sh && ./setup.sh && perl nipe.pl install
 #Examples:
 
