@@ -97,6 +97,7 @@ git -C $OPTHOME clone https://github.com/EmpireProject/Empire.git
 git -C $OPTHOME clone https://github.com/xsan-lahci/NWHT-V1.git
 git -C $OPTHOME clone https://github.com/ZettaHack/PasteZort.git
 git -C $OPTHOME clone https://github.com/Screetsec/TheFatRat.git
+git -C $OPTHOME clone https://github.com/golismero/golismero.git
 git -C $OPTHOME clone https://github.com/Souhardya/UBoat.git
 git -C $OPTHOME clone https://github.com/Veil-Framework/Veil.git
 git -C $OPTHOME clone https://github.com/HackingEnVivo/WaterDoS.git
@@ -220,6 +221,7 @@ cd $OPTHOME/TheCl0n3r && pip3 install -r requirements.txt
 cd $OPTHOME/nuubi && pip install -r requirements.txt && sudo pip3 install -r requirements.txt
 cd $OPTHOME/lockphish && sudo chmod +x lockphish.sh
 cd $OPTHOME/maskphish && sudo chmod +x maskphish.sh
+cd $OPTHOME/golismero && pip install -r requirements.txt && pip install -r requirements_unix.txt && ln -s ${PWD}/golismero.py /usr/bin/golismero
 cd $OPTHOME/reconftw && sudo chmod +x chmod +x *.sh && sudo bash update.sh && sudo bash install.sh
 cd $OPTHOME/tornado && sudo chmod +x setup.sh && sudo bash setup.sh
 cd $OPTHOME/rebel-framework && sudo chmod +x setup.sh && sudo bash setup.sh
