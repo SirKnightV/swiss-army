@@ -15,6 +15,7 @@ echo -e "Clonando Pack de Herramientas"
 git -C $OPTHOME clone https://github.com/BloodHoundAD/BloodHound.git
 git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
+git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/scipag/vulscan.git
 git -C $OPTHOME clone https://github.com/AkshayJainG/domained.git
 git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
@@ -224,7 +225,8 @@ cd $OPTHOME/maskphish && sudo chmod +x maskphish.sh
 cd $OPTHOME/golismero && pip install -r requirements.txt && pip install -r requirements_unix.txt && ln -s ${PWD}/golismero.py /usr/bin/golismero
 cd $OPTHOME/reconftw && sudo chmod +x chmod +x *.sh && sudo bash update.sh && sudo bash install.sh
 cd $OPTHOME/tornado && sudo chmod +x setup.sh && sudo bash setup.sh
-cd $OPTHOME/rebel-framework && sudo chmod +x setup.sh && sudo bash setup.sh
+cd $OPTHOME/rebel-framework && sudo chmod +x setup.sh && sudo bash setup.sh 
+cd $OPTHOME/OpenDoor && sudo chmod +x * && ./setup.py install
 cd $OPTHOME && chmod 755 -R PwnXSS && cd PwnXSS && chmod +x pwnxss.py && sudo pip3 install -r requirements.txt
 cd $OPTHOME/Chimera && sudo apt-get update && sudo apt-get install -Vy sed xxd libc-bin curl jq perl gawk grep coreutils git && sudo chown $USER:$USER -R /opt/chimera/; cd /opt/chimera/ && sudo chmod +x chimera.sh; ./chimera.sh --help
 cd $OPTHOME && sudo apt-get update && sudo apt-get -y install websploit openvas veil-evasion tor && sudo git clone https://github.com/ruped24/killchain.git && cd killchain && sudo chmod +x killchain.py
