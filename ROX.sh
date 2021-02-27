@@ -227,6 +227,7 @@ cd $OPTHOME/maskphish && sudo chmod +x maskphish.sh
 cd $OPTHOME/golismero && pip install -r requirements.txt && pip install -r requirements_unix.txt && ln -s ${PWD}/golismero.py /usr/bin/golismero
 cd $OPTHOME/reconftw && sudo chmod +x chmod +x *.sh && sudo bash update.sh && sudo bash install.sh
 cd $OPTHOME/tornado && sudo chmod +x setup.sh && sudo bash setup.sh
+cd $OPTHOME && apt-get install webhttrack
 cd $OPTHOME/rebel-framework && sudo chmod +x setup.sh && sudo bash setup.sh 
 cd $OPTHOME/OpenDoor && sudo chmod +x * && ./setup.py install
 cd $OPTHOME && chmod 755 -R PwnXSS && cd PwnXSS && chmod +x pwnxss.py && sudo pip3 install -r requirements.txt
