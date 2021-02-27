@@ -18,6 +18,7 @@ git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/scipag/vulscan.git
 git -C $OPTHOME clone https://github.com/AkshayJainG/domained.git
+git -C $OPTHOME clone git clone https://github.com/carlospolop/legion.git
 git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
 git -C $OPTHOME clone https://github.com/SecHackLabs/webhackshl.git
 git -C $OPTHOME clone https://github.com/Datalux/Osintgram.git
@@ -209,6 +210,7 @@ cd $OPTHOME/recox && sudo chmod +x recox.sh && sudo mv recox.sh /usr/local/bin/r
 cd $OPTHOME/uDork && sudo chmod +x uDork.sh
 cd $OPTHOME/BlackDir && sudo pip3 install -r requirements.txt && sudo chmod +x BlackDir.py
 cd $OPTHOME/mercury && ./configure && make && sudo make install && systemctl status mercury
+cd $OPTHOME/legion && cd /opt/legion/git && sudo chmod +x install.sh && ./install.sh && ln -s /opt/legion/legion.py /usr/bin/legion
 cd $OPTHOME/onex && chmod +x onex/install && sh onex/install && ./onex/install
 cd $OPTHOME/Osintgram && sudo pip3 install -r requirements.txt
 cd $OPTHOME/RED_HAWK && sudo chmod +x rhawk.php
