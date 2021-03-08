@@ -31,6 +31,8 @@ git -C $OPTHOME clone https://github.com/Soldie/Striker-python
 git -C $OPTHOME clone https://github.com/thehackingsage/hacktronian.git
 git -C $OPTHOME clone https://github.com/radioactivetobi/geo-recon.git
 git -C $OPTHOME clone https://github.com/m4ll0k/Infoga.git
+git -C $OPTHOME clone https://github.com/r3curs1v3-pr0xy/sub404.git
+git -C $OPTHOME clone https://github.com/aboul3la/Sublist3r.git
 git -C $OPTHOME clone https://github.com/six2dez/reconftw.git
 git -C $OPTHOME clone https://github.com/sundowndev/PhoneInfoga.git
 git -C $OPTHOME clone https://github.com/faizann24/XssPy.git
@@ -215,7 +217,9 @@ cd $OPTHOME/mercury && ./configure && make && sudo make install && systemctl sta
 cd $OPTHOME/legion && cd /opt/legion/git && sudo chmod +x install.sh && ./install.sh && ln -s /opt/legion/legion.py /usr/bin/legion
 cd $OPTHOME/onex && chmod +x onex/install && sh onex/install && ./onex/install
 cd $OPTHOME/Osintgram && sudo pip3 install -r requirements.txt
+cd $OPTHOME/Sublist3r && sudo chmod +x setup.py && sudo ./setup.py install && sudo pip3 install -r requirements.txt  
 cd $OPTHOME/RED_HAWK && sudo chmod +x rhawk.php
+cd $OPTHOME/sub404 && sudo pip3 install -r requirements.txt
 cd $OPTHOME/geo-recon && chmod +x geo-recon.py && pip install -r requirements.txt
 cd $OPTHOME wget https://raw.githubusercontent.com/ThoughtfulDev/EagleEye/master/pre.sh && chmod +x pre.sh && ./pre.sh
 cd $OPTHOME/hacktronian && chmod +x install.sh && sudo bash install.sh
