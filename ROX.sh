@@ -36,6 +36,7 @@ git -C $OPTHOME clone https://github.com/sundowndev/PhoneInfoga.git
 git -C $OPTHOME clone https://github.com/faizann24/XssPy.git
 git -C $OPTHOME clone https://github.com/lobuhi/byp4xx.git
 git -C $OPTHOME clone https://github.com/JKKSI/golismero-master.git
+git -C $OPTHOME clone https://github.com/jcmoney/libSSH-Authentication-Bypass.git
 git -C $OPTHOME clone https://github.com/JKKSI/Tornado.git
 git -C $OPTHOME clone https://github.com/alpkeskin/mosint.git
 git -C $OPTHOME clone https://github.com/xHak9x/fbi.git
@@ -202,6 +203,7 @@ cp ~/autoenum/autoenum.sh /usr/bin/autoenum && chmod o+x /usr/bin/autoenum
 cd $OPTHOME/Lazymux && sudo chmod +x lazymux.py
 cd $OPTHOME/cve_searchsploit && sudo chmod +x setup.py && python3 setup.py install
 cd $OPTHOME/seeker && chmod 777 install.sh && sudo bash install.sh
+cd $OPTHOME/libSSH-Authentication-Bypass && sudo chmod +x *
 cd $OPTHOME/Impulse && sudo pip3 install -r requirements.txt
 cd $OPTHOME/Findsploit && sudo chmod +x install.sh && sudo bash install.sh && findsploit update
 cd $OPTHOME/pwnedOrNot && sudo pip3 install requests && git pull && sudo chmod +x pwnedornot.py
