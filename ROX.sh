@@ -30,6 +30,7 @@ git -C $OPTHOME clone https://github.com/andreafioraldi/cve_searchsploit.git
 git -C $OPTHOME clone https://github.com/Soldie/Striker-python
 git -C $OPTHOME clone https://github.com/thehackingsage/hacktronian.git
 git -C $OPTHOME clone https://github.com/radioactivetobi/geo-recon.git
+git -C $OPTHOME clone https://github.com/s0md3v/Hash-Buster.git
 git -C $OPTHOME clone https://github.com/m4ll0k/Infoga.git
 git -C $OPTHOME clone https://github.com/r3curs1v3-pr0xy/sub404.git
 git -C $OPTHOME clone https://github.com/aboul3la/Sublist3r.git
@@ -204,6 +205,7 @@ cd $OPTHOME/hackerEnv && sudo chmod +x hackerEnv && ln -s /opt/hackerEnv/hackerE
 cp ~/autoenum/autoenum.sh /usr/bin/autoenum && chmod o+x /usr/bin/autoenum
 cd $OPTHOME/Lazymux && sudo chmod +x lazymux.py
 cd $OPTHOME/cve_searchsploit && sudo chmod +x setup.py && python3 setup.py install
+cd $OPTHOME/Hash-Buster && chmod +x hash.py
 cd $OPTHOME/seeker && chmod 777 install.sh && sudo bash install.sh
 cd $OPTHOME/libSSH-Authentication-Bypass && sudo chmod +x *
 cd $OPTHOME/Impulse && sudo pip3 install -r requirements.txt
