@@ -17,6 +17,7 @@ git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/scipag/vulscan.git
+git -C $OPTHOME clone https://github.com/hash3liZer/wifijammer.git
 git -C $OPTHOME clone https://github.com/AkshayJainG/domained.git
 git -C $OPTHOME clone git clone https://github.com/carlospolop/legion.git
 git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
@@ -31,6 +32,7 @@ git -C $OPTHOME clone https://github.com/Soldie/Striker-python
 git -C $OPTHOME clone https://github.com/thehackingsage/hacktronian.git
 git -C $OPTHOME clone https://github.com/radioactivetobi/geo-recon.git
 git -C $OPTHOME clone https://github.com/s0md3v/Hash-Buster.git
+git -C $OPTHOME clone 
 git -C $OPTHOME clone https://github.com/m4ll0k/Infoga.git
 git -C $OPTHOME clone https://github.com/r3curs1v3-pr0xy/sub404.git
 git -C $OPTHOME clone https://github.com/aboul3la/Sublist3r.git
@@ -200,6 +202,7 @@ echo -e "Actualizando Nipe"
 # Install libs and dependencies
 sudo cpan install Switch JSON LWP::UserAgent Config::Simple
 cd $OPTHOME/nipe && perl nipe.pl install
+cd $OPTHOME/wifijammer && pip3 install scapy==2.4.3 
 cd $OPTHOME/hackingtool && sudo chmod +x install.sh && sudo chmod +x hackingtool.py && sudo bash install.sh
 cd $OPTHOME/hackerEnv && sudo chmod +x hackerEnv && ln -s /opt/hackerEnv/hackerEnv /usr/local/bin/
 cp ~/autoenum/autoenum.sh /usr/bin/autoenum && chmod o+x /usr/bin/autoenum
