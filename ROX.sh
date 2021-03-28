@@ -32,8 +32,17 @@ git -C $OPTHOME clone https://github.com/Soldie/Striker-python
 git -C $OPTHOME clone https://github.com/thehackingsage/hacktronian.git
 git -C $OPTHOME clone https://github.com/radioactivetobi/geo-recon.git
 git -C $OPTHOME clone https://github.com/s0md3v/Hash-Buster.git
-git -C $OPTHOME clone 
+git -C $OPTHOME clone https://github.com/s0md3v/Breacher.git
+git -C $OPTHOME clone https://github.com/Bayz21/WP-3u3
+git -C $OPTHOME clone https://github.com/XiphosResearch/wp-user-enum-scripts
+git -C $OPTHOME clone https://github.com/random-robbie/bruteforce-lists
+git -C $OPTHOME clone https://github.com/s0md3v/Photon.git
+git -C $OPTHOME clone https://github.com/KTN1990/Email-Grabber.git
+git -C $OPTHOME clone https://github.com/k4m4/onioff.git && cd onioff && pip3 install -r requirements.txt
 git -C $OPTHOME clone https://github.com/m4ll0k/Infoga.git
+git -C $OPTHOME clone https://github.com/1N3/Sn1per
+git -C $OPTHOME clone https://github.com/Screetsec/Dracnmap.git
+git -C $OPTHOME clone https://github.com/Screetsec/BruteSploit.git
 git -C $OPTHOME clone https://github.com/r3curs1v3-pr0xy/sub404.git
 git -C $OPTHOME clone https://github.com/aboul3la/Sublist3r.git
 git -C $OPTHOME clone https://github.com/six2dez/reconftw.git
@@ -118,6 +127,7 @@ git -C $OPTHOME clone https://github.com/cldrn/macphish.git
 git -C $OPTHOME clone https://github.com/wifiphisher/wifiphisher.git
 git -C $OPTHOME clone https://github.com/pasahitz/zirikatu.git
 git -C $OPTHOME clone https://github.com/trustedsec/unicorn.git
+git -C $OPTHOME clone https://github.com/HashPals/Search-That-Hash.git
 git -C $OPTHOME clone https://github.com/M4sc3r4n0/Evil-Droid.git
 git -C $OPTHOME clone https://github.com/abdulr7mann/hackerEnv.git
 git -C $OPTHOME clone https://github.com/Gameye98/Lazymux.git
@@ -202,6 +212,7 @@ echo -e "Actualizando Nipe"
 # Install libs and dependencies
 sudo cpan install Switch JSON LWP::UserAgent Config::Simple
 cd $OPTHOME/nipe && perl nipe.pl install
+cd $OPTHOME && pip3 install search-that-hash
 cd $OPTHOME/wifijammer && pip3 install scapy==2.4.3 
 cd $OPTHOME/hackingtool && sudo chmod +x install.sh && sudo chmod +x hackingtool.py && sudo bash install.sh
 cd $OPTHOME/hackerEnv && sudo chmod +x hackerEnv && ln -s /opt/hackerEnv/hackerEnv /usr/local/bin/
