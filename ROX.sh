@@ -19,7 +19,7 @@ git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/scipag/vulscan.git
 git -C $OPTHOME clone https://github.com/hash3liZer/wifijammer.git
 git -C $OPTHOME clone https://github.com/AkshayJainG/domained.git
-git -C $OPTHOME clone git clone https://github.com/carlospolop/legion.git
+git -C $OPTHOME clone https://github.com/carlospolop/legion.git
 git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
 git -C $OPTHOME clone https://github.com/SecHackLabs/webhackshl.git
 git -C $OPTHOME clone https://github.com/Datalux/Osintgram.git
