@@ -38,7 +38,7 @@ git -C $OPTHOME clone https://github.com/XiphosResearch/wp-user-enum-scripts
 git -C $OPTHOME clone https://github.com/random-robbie/bruteforce-lists
 git -C $OPTHOME clone https://github.com/s0md3v/Photon.git
 git -C $OPTHOME clone https://github.com/KTN1990/Email-Grabber.git
-git -C $OPTHOME clone https://github.com/k4m4/onioff.git && cd onioff && pip3 install -r requirements.txt
+git -C $OPTHOME clone https://github.com/k4m4/onioff.git
 git -C $OPTHOME clone https://github.com/m4ll0k/Infoga.git
 git -C $OPTHOME clone https://github.com/1N3/Sn1per
 git -C $OPTHOME clone https://github.com/Screetsec/Dracnmap.git
@@ -236,6 +236,7 @@ cd $OPTHOME/Osintgram && sudo pip3 install -r requirements.txt
 cd $OPTHOME/Sublist3r && sudo chmod +x setup.py && sudo ./setup.py install && sudo pip3 install -r requirements.txt  
 cd $OPTHOME/RED_HAWK && sudo chmod +x rhawk.php
 cd $OPTHOME/ && apt-get install subfinder && apt-get install sublist3r
+cd $OPTHOME/onioff && pip3 install -r requirements.txt
 cd $OPTHOME/sub404 && sudo pip3 install -r requirements.txt
 cd $OPTHOME/geo-recon && chmod +x geo-recon.py && pip install -r requirements.txt
 cd $OPTHOME wget https://raw.githubusercontent.com/ThoughtfulDev/EagleEye/master/pre.sh && chmod +x pre.sh && ./pre.sh
