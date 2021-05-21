@@ -26,6 +26,7 @@ git -C $OPTHOME clone https://github.com/SecHackLabs/webhackshl.git
 git -C $OPTHOME clone https://github.com/Datalux/Osintgram.git
 git -C $OPTHOME clone https://github.com/rajkumardusad/onex.git
 git -C $OPTHOME clone https://github.com/elceef/dnstwist.git
+git -C $OPTHOME clone https://github.com/1N3/BruteX.git
 git -C $OPTHOME clone https://github.com/ElevenPaths/FOCA.git
 git -C $OPTHOME clone https://github.com/wKovacs64/hibp.git
 git -C $OPTHOME clone https://github.com/andreafioraldi/cve_searchsploit.git
@@ -221,6 +222,7 @@ cp ~/autoenum/autoenum.sh /usr/bin/autoenum && chmod o+x /usr/bin/autoenum
 cd $OPTHOME/Lazymux && sudo chmod +x lazymux.py
 cd $OPTHOME/cve_searchsploit && sudo chmod +x setup.py && python3 setup.py install
 cd $OPTHOME/Hash-Buster && chmod +x hash.py
+cd $OPTHOME/BruteX && bash install.sh
 cd $OPTHOME/seeker && chmod 777 install.sh && sudo bash install.sh
 cd $OPTHOME/libSSH-Authentication-Bypass && sudo chmod +x *
 cd $OPTHOME/Impulse && sudo pip3 install -r requirements.txt
