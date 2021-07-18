@@ -17,6 +17,7 @@ git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/HACK3RY2J/Anon-SMS.git
+git -C $OPTHOME clone https://github.com/1N3/BlackWidow.git
 git -C $OPTHOME clone https://github.com/jeanphorn/wordlist.git
 git -C $OPTHOME clone https://github.com/scipag/vulscan.git
 git -C $OPTHOME clone https://github.com/hash3liZer/wifijammer.git
@@ -225,6 +226,7 @@ cd $OPTHOME/Lazymux && sudo chmod +x lazymux.py
 cd $OPTHOME/cve_searchsploit && sudo chmod +x setup.py && python3 setup.py install
 cd $OPTHOME/Hash-Buster && chmod +x hash.py
 cd $OPTHOME/BruteX && bash install.sh
+cd $OPTHOME/BlackWidow && sudo chmod +x install.sh && sudo bash install.sh
 cd $OPTHOME/seeker && chmod 777 install.sh && sudo bash install.sh
 cd $OPTHOME/libSSH-Authentication-Bypass && sudo chmod +x *
 cd $OPTHOME/Impulse && sudo pip3 install -r requirements.txt
