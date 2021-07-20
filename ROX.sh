@@ -16,6 +16,7 @@ git -C $OPTHOME clone https://github.com/BloodHoundAD/BloodHound.git
 git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
+git -C $OPTHOME clone https://github.com/dmknght/BruteforceHTTP.git
 git -C $OPTHOME clone https://github.com/HACK3RY2J/Anon-SMS.git
 git -C $OPTHOME clone https://github.com/1N3/BlackWidow.git
 git -C $OPTHOME clone https://github.com/jeanphorn/wordlist.git
@@ -114,9 +115,11 @@ git -C $OPTHOME clone https://github.com/m4ll0k/Shodanfy.py.git
 git -C $OPTHOME clone https://github.com/thewhiteh4t/FinalRecon.git
 # Clone tools exploit
 git -C $OPTHOME clone https://github.com/byt3bl33d3r/CrackMapExec.git
+git -C $OPTHOME clone https://github.com/ygorsimoes/Heimdall.git
 git -C $OPTHOME clone https://github.com/EmpireProject/Empire.git
 git -C $OPTHOME clone https://github.com/xsan-lahci/NWHT-V1.git
 git -C $OPTHOME clone https://github.com/ZettaHack/PasteZort.git
+git -C $OPTHOME clone https://github.com/mlynchcogent/w3brute.git
 git -C $OPTHOME clone https://github.com/Screetsec/TheFatRat.git
 git -C $OPTHOME clone https://github.com/golismero/golismero.git
 git -C $OPTHOME clone https://github.com/Souhardya/UBoat.git
@@ -217,6 +220,8 @@ echo -e "Actualizando Nipe"
 sudo cpan install Switch JSON LWP::UserAgent Config::Simple
 cd $OPTHOME/nipe && perl nipe.pl install
 cd $OPTHOME && pip3 install search-that-hash
+cd $OPTHOME/Heimdall && pip3 install -r requirements.txt
+cd $OPTHOME/BruteforceHTTP && chmod +x * && sudo apt install python3 python3-regex git python3-uritools python3-bs4 python3-mechanicalsoup && sudo pip3 install html2text
 cd $OPTHOME/Anon-SMS && sudo bash Run.sh
 cd $OPTHOME/wifijammer && pip3 install scapy==2.4.3 
 cd $OPTHOME/hackingtool && sudo chmod +x install.sh && sudo chmod +x hackingtool.py && sudo bash install.sh
