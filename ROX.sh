@@ -18,6 +18,7 @@ git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/dmknght/BruteforceHTTP.git
 git -C $OPTHOME clone https://github.com/HACK3RY2J/Anon-SMS.git
+git -C $OPTHOME clone https://github.com/simonclausen/dnscrypt-autoinstall.git
 git -C $OPTHOME clone https://github.com/1N3/BlackWidow.git
 git -C $OPTHOME clone https://github.com/jeanphorn/wordlist.git
 git -C $OPTHOME clone https://github.com/scipag/vulscan.git
