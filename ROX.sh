@@ -17,6 +17,7 @@ git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/dmknght/BruteforceHTTP.git
+git -C $OPTHOME clone https://github.com/AdrMXR/router-kill.git
 git -C $OPTHOME clone https://github.com/HACK3RY2J/Anon-SMS.git
 git -C $OPTHOME clone https://github.com/simonclausen/dnscrypt-autoinstall.git
 git -C $OPTHOME clone https://github.com/1N3/BlackWidow.git
@@ -149,6 +150,7 @@ git -C $OPTHOME clone https://github.com/JKKSI/Tornado.git
 git -C $OPTHOME clone https://github.com/reb311ion/rebel-framework.git
 git -C $OPTHOME clone https://github.com/pwn0sec/PwnXSS.git
 git -C $OPTHOME clone https://github.com/tokyoneon/Chimera.git
+git -C $OPTHOME clone https://github.com/AdrMXR/KitHack.git
 git -C $OPTHOME clone https://github.com/360-Linton-Lab/Telemetry.git
 git -C $OPTHOME clone https://github.com/ttlequals0/autovpn.git
 git -C $OPTHOME clone https://github.com/SomeKirill/wordlist_generator.git && pip3 install requests
@@ -220,6 +222,8 @@ echo -e "Actualizando Nipe"
 # Install libs and dependencies
 sudo cpan install Switch JSON LWP::UserAgent Config::Simple
 cd $OPTHOME/nipe && perl nipe.pl install
+cd $OPTHOME/router-kill && sudo bash install.sh
+cd $OPTHOME/KitHack && sudo bash install.sh
 cd $OPTHOME && pip3 install search-that-hash
 cd $OPTHOME/Heimdall && pip3 install -r requirements.txt
 cd $OPTHOME/BruteforceHTTP && chmod +x * && sudo apt install python3 python3-regex git python3-uritools python3-bs4 python3-mechanicalsoup && sudo pip3 install html2text
