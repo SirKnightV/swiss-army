@@ -17,6 +17,7 @@ git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/dmknght/BruteforceHTTP.git
+git -C $OPTHOME clone https://github.com/Und3rf10w/kali-anonsurf.git
 git -C $OPTHOME clone https://github.com/AdrMXR/router-kill.git
 git -C $OPTHOME clone https://github.com/HACK3RY2J/Anon-SMS.git
 git -C $OPTHOME clone https://github.com/simonclausen/dnscrypt-autoinstall.git
@@ -222,6 +223,7 @@ echo -e "Actualizando Nipe"
 # Install libs and dependencies
 sudo cpan install Switch JSON LWP::UserAgent Config::Simple
 cd $OPTHOME/nipe && perl nipe.pl install
+cd $OPTHOME/kali-anonsurf && bash installer.sh
 cd $OPTHOME/router-kill && sudo bash install.sh
 cd $OPTHOME/KitHack && sudo bash install.sh
 cd $OPTHOME && pip3 install search-that-hash
