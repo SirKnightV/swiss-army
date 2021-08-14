@@ -204,6 +204,7 @@ sudo dpkg --add-architecture i386 && apt-get update
 echo -e " "
 echo -e "Instalando Wine 32 bits "
 sudo apt-get install wine32
+cd /usr/lib/x86_64-linux-gnu/ && ln -s -f libc.a liblibc.a
 
 # Install conky-manager
 echo -e " "
