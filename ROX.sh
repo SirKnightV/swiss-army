@@ -30,6 +30,7 @@ git -C $OPTHOME clone https://github.com/carlospolop/legion.git
 git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
 git -C $OPTHOME clone https://github.com/SecHackLabs/webhackshl.git
 git -C $OPTHOME clone https://github.com/Datalux/Osintgram.git
+git -C $OPTHOME clone https://github.com/FluxionNetwork/fluxion.git
 git -C $OPTHOME clone https://github.com/rajkumardusad/onex.git
 git -C $OPTHOME clone https://github.com/elceef/dnstwist.git
 git -C $OPTHOME clone https://github.com/1N3/BruteX.git
