@@ -24,7 +24,7 @@ git -C $OPTHOME clone https://github.com/simonclausen/dnscrypt-autoinstall.git
 git -C $OPTHOME clone https://github.com/1N3/BlackWidow.git
 git -C $OPTHOME clone https://github.com/jeanphorn/wordlist.git
 git -C $OPTHOME clone https://github.com/scipag/vulscan.git
-git -C $OPTHOME clone https://github.com/hash3liZer/wifijammer.git
+git -C $OPTHOME clone https://github.com/hash3liZer/wifijammer.git && pip3 install scapy
 git -C $OPTHOME clone https://github.com/AkshayJainG/domained.git
 git -C $OPTHOME clone https://github.com/carlospolop/legion.git
 git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
