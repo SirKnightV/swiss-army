@@ -32,6 +32,10 @@ git -C $OPTHOME clone https://github.com/SecHackLabs/webhackshl.git
 git -C $OPTHOME clone https://github.com/Datalux/Osintgram.git
 git -C $OPTHOME clone https://github.com/FluxionNetwork/fluxion.git
 git -C $OPTHOME clone https://github.com/rajkumardusad/onex.git
+git -C $OPTHOME clone https://github.com/mishakorzik/UserFinder
+git -C $OPTHOME clone https://github.com/palahsu/DDoS-Ripper.git
+git -C $OPTHOME clone https://github.com/mishakorzik/AllHackingTools.git
+git -C $OPTHOME clone https://github.com/mishakorzik/AdminHack.git
 git -C $OPTHOME clone https://github.com/elceef/dnstwist.git
 git -C $OPTHOME clone https://github.com/1N3/BruteX.git
 git -C $OPTHOME clone https://github.com/ElevenPaths/FOCA.git
