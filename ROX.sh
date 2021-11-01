@@ -20,6 +20,7 @@ git -C $OPTHOME clone https://github.com/dmknght/BruteforceHTTP.git
 git -C $OPTHOME clone https://github.com/Und3rf10w/kali-anonsurf.git
 git -C $OPTHOME clone https://github.com/AdrMXR/router-kill.git
 git -C $OPTHOME clone https://github.com/HACK3RY2J/Anon-SMS.git
+git -C $OPTHOME clone git clone https://github.com/HightechSec/scarce-apache2
 git -C $OPTHOME clone https://github.com/simonclausen/dnscrypt-autoinstall.git
 git -C $OPTHOME clone https://github.com/1N3/BlackWidow.git
 git -C $OPTHOME clone https://github.com/jeanphorn/wordlist.git
@@ -230,6 +231,7 @@ echo -e "Actualizando Nipe"
 sudo cpan install Switch JSON LWP::UserAgent Config::Simple
 cd $OPTHOME/nipe && perl nipe.pl install
 cd $OPTHOME/kali-anonsurf && bash installer.sh
+cd $OPTHOME/scarce-apache2 && sudo cp scarce.sh /usr/bin/scarce && sudo chmod +x /usr/bin/scarce
 cd $OPTHOME/router-kill && sudo bash install.sh
 cd $OPTHOME/KitHack && sudo bash install.sh
 cd $OPTHOME && pip3 install search-that-hash
