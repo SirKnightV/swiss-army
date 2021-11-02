@@ -32,6 +32,8 @@ git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
 git -C $OPTHOME clone https://github.com/SecHackLabs/webhackshl.git
 git -C $OPTHOME clone https://github.com/V1n1v131r4/webdiscover.git
 git -C $OPTHOME clone https://github.com/Datalux/Osintgram.git
+git -C $OPTHOME clone https://github.com/ultrasecurity/Storm-Breaker.git
+git -C $OPTHOME clone https://github.com/chenjj/espoofer.git
 git -C $OPTHOME clone https://github.com/FluxionNetwork/fluxion.git
 git -C $OPTHOME clone https://github.com/EONRaider/Packet-Sniffer.git
 git -C $OPTHOME clone https://github.com/rajkumardusad/onex.git
