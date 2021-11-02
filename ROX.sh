@@ -30,8 +30,10 @@ git -C $OPTHOME clone https://github.com/AkshayJainG/domained.git
 git -C $OPTHOME clone https://github.com/carlospolop/legion.git
 git -C $OPTHOME clone https://github.com/chrismaddalena/ODIN.git
 git -C $OPTHOME clone https://github.com/SecHackLabs/webhackshl.git
+git -C $OPTHOME clone https://github.com/V1n1v131r4/webdiscover.git
 git -C $OPTHOME clone https://github.com/Datalux/Osintgram.git
 git -C $OPTHOME clone https://github.com/FluxionNetwork/fluxion.git
+git -C $OPTHOME clone https://github.com/EONRaider/Packet-Sniffer.git
 git -C $OPTHOME clone https://github.com/rajkumardusad/onex.git
 git -C $OPTHOME clone https://github.com/mishakorzik/UserFinder
 git -C $OPTHOME clone https://github.com/palahsu/DDoS-Ripper.git
@@ -48,6 +50,7 @@ git -C $OPTHOME clone https://github.com/radioactivetobi/geo-recon.git
 git -C $OPTHOME clone https://github.com/s0md3v/Hash-Buster.git
 git -C $OPTHOME clone https://github.com/s0md3v/Breacher.git
 git -C $OPTHOME clone https://github.com/Bayz21/WP-3u3
+git -C $OPTHOME clone https://github.com/Qianlitp/crawlergo.git
 git -C $OPTHOME clone https://github.com/XiphosResearch/wp-user-enum-scripts
 git -C $OPTHOME clone https://github.com/random-robbie/bruteforce-lists
 git -C $OPTHOME clone https://github.com/s0md3v/Photon.git
