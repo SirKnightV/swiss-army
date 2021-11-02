@@ -22,6 +22,7 @@ git -C $OPTHOME clone https://github.com/AdrMXR/router-kill.git
 git -C $OPTHOME clone https://github.com/HACK3RY2J/Anon-SMS.git
 git -C $OPTHOME clone git clone https://github.com/HightechSec/scarce-apache2
 git -C $OPTHOME clone https://github.com/simonclausen/dnscrypt-autoinstall.git
+git -C $OPTHOME clone https://github.com/megadose/toutatis.git
 git -C $OPTHOME clone https://github.com/1N3/BlackWidow.git
 git -C $OPTHOME clone https://github.com/jeanphorn/wordlist.git
 git -C $OPTHOME clone https://github.com/scipag/vulscan.git
