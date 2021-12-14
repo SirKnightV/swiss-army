@@ -285,7 +285,9 @@ cd $OPTHOME/golismero && pip install -r requirements.txt && pip install -r requi
 cd $OPTHOME/reconftw && sudo chmod +x chmod +x *.sh && sudo bash update.sh && sudo bash install.sh
 cd $OPTHOME/tornado && sudo chmod +x setup.sh && sudo bash setup.sh
 cd $OPTHOME && apt-get install webhttrack
-cd $OPTHOME/rebel-framework && sudo chmod +x setup.sh && sudo bash setup.sh 
+cd $OPTHOME/rebel-framework && sudo chmod +x setup.sh && sudo bash setup.sh
+apt install xterm
+apt install gnome-terminal
 cd $OPTHOME/OpenDoor && sudo chmod +x * && ./setup.py install
 cd $OPTHOME && chmod 755 -R PwnXSS && cd PwnXSS && chmod +x pwnxss.py && sudo pip3 install -r requirements.txt
 cd $OPTHOME/Chimera && sudo apt-get update && sudo apt-get install -Vy sed xxd libc-bin curl jq perl gawk grep coreutils git && sudo chown $USER:$USER -R /opt/chimera/; cd /opt/chimera/ && sudo chmod +x chimera.sh; ./chimera.sh --help
