@@ -13,6 +13,7 @@ echo -e "Clonando Pack de Herramientas"
 # Clone tools Recon
 
 git -C $OPTHOME clone https://github.com/BloodHoundAD/BloodHound.git
+git -C $OPTHOME clone https://github.com/the-c0d3r/admin-finder.git
 git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
@@ -236,6 +237,7 @@ echo -e "Actualizando Nipe"
 # Install libs and dependencies
 sudo cpan install Switch JSON LWP::UserAgent Config::Simple
 cd $OPTHOME/nipe && perl nipe.pl install
+cd $OPTHOME/admin-finder && chmod +x * && pip3 install -r requirements.txt
 cd $OPTHOME/kali-anonsurf && bash installer.sh
 cd $OPTHOME/scarce-apache2 && sudo cp scarce.sh /usr/bin/scarce && sudo chmod +x /usr/bin/scarce
 cd $OPTHOME/router-kill && sudo bash install.sh
