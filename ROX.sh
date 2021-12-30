@@ -16,6 +16,7 @@ git -C $OPTHOME clone https://github.com/BloodHoundAD/BloodHound.git
 git -C $OPTHOME clone https://github.com/the-c0d3r/admin-finder.git
 git -C $OPTHOME clone https://github.com/FortyNorthSecurity/EyeWitness.git
 git -C $OPTHOME clone https://github.com/Mosuan/FileScan.git
+git -C $OPTHOME clone https://github.com/bats3c/darkarmour.git
 git -C $OPTHOME clone https://github.com/stanislav-web/OpenDoor
 git -C $OPTHOME clone https://github.com/dmknght/BruteforceHTTP.git
 git -C $OPTHOME clone https://github.com/Und3rf10w/kali-anonsurf.git
