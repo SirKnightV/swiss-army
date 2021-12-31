@@ -241,6 +241,8 @@ cd $OPTHOME/nipe && perl nipe.pl install
 cd $OPTHOME/admin-finder && chmod +x * && pip3 install -r requirements.txt
 cd $OPTHOME/kali-anonsurf && bash installer.sh
 cd $OPTHOME/scarce-apache2 && sudo cp scarce.sh /usr/bin/scarce && sudo chmod +x /usr/bin/scarce
+sudo apt install mingw-w64-tools mingw-w64-common g++-mingw-w64 gcc-mingw-w64 upx-ucl osslsigncode
+cd $OPTHOME/darkarmour
 cd $OPTHOME/router-kill && sudo bash install.sh
 cd $OPTHOME/KitHack && sudo bash install.sh
 cd $OPTHOME && pip3 install search-that-hash
