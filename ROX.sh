@@ -293,6 +293,7 @@ cd $OPTHOME/tornado && sudo chmod +x setup.sh && sudo bash setup.sh
 cd $OPTHOME && apt-get install webhttrack
 cd $OPTHOME/rebel-framework && sudo chmod +x setup.sh && sudo bash setup.sh
 apt install xterm
+git -C $OPTHOME clone sudo apt install -y tor torbrowser-launcher
 apt install gnome-terminal
 cd $OPTHOME/OpenDoor && sudo chmod +x * && ./setup.py install
 cd $OPTHOME && chmod 755 -R PwnXSS && cd PwnXSS && chmod +x pwnxss.py && sudo pip3 install -r requirements.txt
